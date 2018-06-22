@@ -73,8 +73,40 @@ a{
 .nav-toggle, .nav-toggle-label{
    display: none;
 }
-footer {
+#Contact{
     background-color: #256091;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.quick-link{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.address{
+    margin: 0;
+    text-align: right;
+    position: absolute;
+    right: 12%;
+    display: flex;
+    align-items: center;
+}
+.quick{
+    font-size: 17px;
+    font-weight: normal;
+}
+.quick-link li a:hover {
+    color: black;
+}
+#Contact div{
+    padding-left: 10%;
+    width: 150px;
+}
+footer {
+    background-color: #112C41;
     width: 100%;
     padding: 20px 0;
     text-align: center;

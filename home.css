@@ -33,12 +33,20 @@
     background-color: #f2f2f2;
 }
 #treatment{
-    display: flex;
     padding: 10vw;
+    padding-top: 30px;
     background-color: #f2f2f2;
 }
+#treat-container{
+    display: flex;
+}
+.section-id{
+    text-align: center;
+    color: #256091;
+    font-size: 30px;
+}
 @media screen and (max-width:900px){
-    #treatment{
+    #treat-container{
         display: flex;
         flex-direction: column;
     }
