@@ -105,6 +105,9 @@ a{
     padding-left: 10%;
     width: 150px;
 }
+.address p a:hover{
+    color: black;
+}
 footer {
     background-color: #112C41;
     width: 100%;
