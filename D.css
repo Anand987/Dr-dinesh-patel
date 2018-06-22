@@ -48,9 +48,6 @@ a{
     text-decoration: none;
     color: white;
 }
-nav ul li{
-    margin-left: 20px;
-}
 #legit{
     width: 40%;
     margin: 0;
@@ -76,6 +73,17 @@ section{
 .nav-toggle, .nav-toggle-label{
    display: none;
 }
+footer {
+    background-color: #256091;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.active{
+    background-color: #112C41;
+}
 @media screen and (max-width: 900px){
    #legit{
        width: 35%;
@@ -89,18 +97,16 @@ section{
         list-style: none;
         display: none;
         margin: auto;
-        padding-top: 20px;
     }
     .nav-toggle:checked ~ nav ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: block;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: center;
     }
     nav a{
         margin: 0;
-    }
-    nav li{
-        margin-bottom: 20px;
     }
     .nav-toggle-label{
         position: absolute;
