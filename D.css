@@ -53,7 +53,7 @@ a{
     margin: 0;
     grid-column: 3/4;
 }
-section{
+#home{
     height: 1000px;
 }
 #topbtn{
@@ -76,7 +76,7 @@ section{
 footer {
     background-color: #256091;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
     color: white;
     font-size: 14px;

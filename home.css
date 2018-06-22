@@ -1,0 +1,48 @@
+.card-icon{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border: 3px solid #256091;
+    border-radius: 50%;
+    margin: 20px;
+}
+.card-img{
+    height: 100%;
+    width: auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0 0 8px 4px rgba(0,0,0,0.2);
+    /* border: 1px solid red; */
+    padding: 5px;
+    width: 20vw;
+    margin: auto;
+    margin-top:20px;
+    background-color: white;
+}
+.card p{
+    margin: 0;
+    padding: 2px;
+}
+.card p:nth-child(2n) {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+#treatment{
+    display: flex;
+    padding: 10vw;
+    background-color: #f2f2f2;
+}
+@media screen and (max-width:900px){
+    #treatment{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 70vw;
+    }
+}
