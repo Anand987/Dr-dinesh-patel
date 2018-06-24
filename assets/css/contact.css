@@ -1,0 +1,49 @@
+#Contact{
+  margin-top: 200px;
+}
+#contact_p{
+
+    margin-top:250px;
+  }
+#contact_p h1{
+    background-color: #256091;
+    color: white;
+    padding: 20px;
+    margin:0px 15%;
+  }
+  .phone_address
+  {
+    background-color: #f2f2f2;
+    margin: 0px 15%;
+  }
+  h2{
+    color: #256091;
+
+    margin-top : 0px;
+    padding:  20px;
+    padding-bottom: 10px;
+  }
+  h2 + p {
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    color: #256091;
+  }
+  .map{
+    margin: 5px 15%;
+  }
+  #map-position {
+      width:100%;
+  }
+  #cn_no{
+    border: 1px solid #256091;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+  }
+  #add_pl{
+    border: 1px solid #256091;
+    font-weight: 400;
+    text-align: center;
+
+  }
