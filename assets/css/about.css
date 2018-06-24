@@ -2,7 +2,7 @@
 body{
     padding-top: 220px;
 }
-h1{
+.c-id{
     color: white;
     margin: 0;
     background-color: #256091;
@@ -17,8 +17,9 @@ h1{
     text-align: justify;
     font-family: 'Hind';
     line-height: 35px;
+    font-size: 18px;
 }
-h2{
+.c-sub-id{
     font-size: 20px;
     color: #256091;
 }
@@ -28,8 +29,9 @@ h2{
     margin: auto;
 }
 #float-img{
+    display: block;
     margin-top: 25px;
-    height: 175px;
+    width: 175px;
     float: left;
     margin-right: 10px;
     margin-bottom: 5px;
@@ -37,7 +39,7 @@ h2{
     padding: 2px;
 }
 .btn {
- display: inline-block;
+ display: block;
  background-color: #256091;
  padding: 8px 16px;
  border: none;
@@ -57,5 +59,14 @@ h2{
     }
     #about{
         width: 90%;
+    }
+}
+@media screen and (max-width:450px){
+    #float-img{
+        float: none;
+        margin: 0 auto;
+    }
+    .btn{
+        margin: auto;
     }
 }
