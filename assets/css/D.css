@@ -11,11 +11,13 @@ header{
 nav {
     background-color: #256091;
 }
-nav ul li{
+.m-link{
+    display: block;
     padding: 20px;
 }
-nav ul li:hover {
+.m-link:hover {
     background-color: #112C41;
+    padding: 20px;
 }
 #detail{
     background-color: #112C41;
@@ -79,7 +81,6 @@ a{
     margin: 0;
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
 }
 .quick-link{
     margin: 0;
@@ -89,24 +90,21 @@ a{
 .address{
     margin: 0;
     text-align: right;
-    position: absolute;
-    right: 12%;
     display: flex;
+    width: 160px;
     align-items: center;
+    margin: 0 10% 0 auto;
 }
 .quick{
     font-size: 17px;
     font-weight: normal;
 }
-.quick-link li a:hover {
-    color: black;
+.b-link:hover {
+    color: #d9aeae;
 }
-#Contact div{
-    padding-left: 10%;
-    width: 150px;
-}
-.address p a:hover{
-    color: black;
+.links{
+    padding-left: 9%;
+    width: 120px;
 }
 footer {
     background-color: #112C41;
@@ -139,6 +137,7 @@ footer {
     nav ul li{
         width: 100%;
         text-align: center;
+        padding: 20px 0;
     }
     nav a{
         margin: 0;
@@ -171,9 +170,30 @@ footer {
      .nav-toggle-label span::after{
          top: 7px;
      }
+    #Contact{
+        padding: 20px 0;
+    }
+    .links{
+        padding-left: 5%;
+    }
+    .address{
+        margin: 0 5% 0 auto;
+    }
+    footer{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 500px){
     .nav-toggle-label{
         left: 85%;
+    }
+    #Contact{
+        font-size: 15px;
+    }
+    .links{
+        padding-left: 2%;
+    }
+    .address{
+        margin: 0 1% 0 auto;
     }
 }
