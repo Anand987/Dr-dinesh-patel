@@ -55,9 +55,6 @@ a{
     margin: 0;
     grid-column: 3/4;
 }
-#home{
-    height: 1000px;
-}
 #topbtn{
     display: none;
     position: fixed;
