@@ -1,12 +1,12 @@
 #home{
     display: block;
-    padding-top: 170px;
+    padding-top: 50px;
     width: 90%;
     margin: auto;
+    padding-bottom: 30px;
 }
 #home-pic{
     width: 100%;
-    height: auto;
 }
 .card-icon{
     width: 70px;
@@ -66,9 +66,4 @@
     .card{
         width: 70vw;
     }
-}
-@media screen and (max-width:450px){
-    /* #home{
-        margin-top: 90px;
-    } */
 }
