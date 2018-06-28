@@ -31,6 +31,13 @@ body{
     padding: 30px;
     text-align: left;
 }
+.bc-link{
+    color: #256091;
+    font-size: 16px;
+}
+.bc-link:hover{
+    color: #112C41;
+}
 .cn-sub-id{
     font-size: 20px;
     color: #256091;
