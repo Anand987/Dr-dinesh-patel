@@ -1,0 +1,66 @@
+body{
+    padding-top: 220px;
+}
+#contact{
+    display: flex;
+    padding: 0 20px;
+    width: 1142px;
+    /* width: 100%; */
+    margin: auto;
+}
+.cn-id{
+    color: white;
+    margin: 0;
+    background-color: #256091;
+    padding: 20px;
+}
+.cn-card{
+    width: 275px;
+    background-color: #f2f2f2;
+    margin: 30px 10px;
+    border-bottom: 2px solid #256091;
+}
+#map{
+    margin: 30px 10px;
+    width: 796px;
+    height: 622px;
+    border-bottom: 2px solid #256091;
+    border-top: 2px solid #256091;
+}
+.cn-message{
+    padding: 30px;
+    text-align: left;
+}
+.cn-sub-id{
+    font-size: 20px;
+    color: #256091;
+}
+@media screen and (max-width:1170px){
+    #contact{
+        display: block;
+        width: 80%;
+    }
+    .cn-card{
+        width: 100%;
+    }
+    #map{
+        width: 100%;
+    }
+}
+@media screen and (max-width:900px){
+    body{
+        padding-top: 90px;
+    }
+}
+@media screen and (max-width:340px){
+    #contact{
+        width: 100%;
+        padding: 0;
+    }
+    .cn-card{
+        margin: 30px 0px;
+    }
+    #map{
+        margin: 30px 0px;
+    }
+}
