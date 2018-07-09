@@ -20,10 +20,22 @@ body{
 .c-message{
     padding: 30px;
     text-align: justify;
+    font-size: 14px;
 }
 .c-sub-id{
     font-size: 20px;
     color: #256091;
+}
+.c-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: solid #256091 2px;
+    padding: 4px;
+}
+.c-fig{
+    text-align: center;
 }
 @media screen and (max-width:900px){
     body{
