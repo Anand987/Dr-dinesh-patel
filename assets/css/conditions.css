@@ -44,4 +44,7 @@ body{
     #conditions{
         width: 90%;
     }
+    .c-image{
+        width: 100%
+    }
 }
